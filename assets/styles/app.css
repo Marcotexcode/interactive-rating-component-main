@@ -32,9 +32,15 @@ body {
     margin: 0 auto;
     grid-template-rows: 1fr 6fr 1fr;
     border-radius: 20px;
-    padding: 25px;
+    padding: 50px;
     height: 400px;
     width: 400px;
+}
+
+
+/* Submit section  */
+.submit_section {
+    display: block;
 }
 
 .star svg {
@@ -68,6 +74,7 @@ body {
     border-radius: 50px;
     font-size: 15px;
     color: var(--light-grey);
+    cursor: pointer;
 }
 
 .rating span:hover {
@@ -83,8 +90,35 @@ body {
     border-radius: 30px;
     color: var(--orange);
     background-color: var(--white);
+    cursor: pointer;
 }
 
-.hidden {
-    visibility: hidden
+
+/* Confirm section */
+.confirm_section {
+    display: none;
+    text-align: center;
+}
+
+.print_rating {
+    margin: 20px auto;
+    width: 181px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: var(--medium-grey);
+    color: var(--orange);
+}
+
+.message_text {
+    margin: 20px 0px;
+    color: var(--light-grey);  
+}
+
+
+.active {
+    display: block;
+}
+
+.disable {
+    display: none;
 }
